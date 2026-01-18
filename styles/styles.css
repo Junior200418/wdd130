@@ -3,9 +3,11 @@ main {
 }
 
 main img {
-    border: 20px;
+    border: 20px solid black;
+    /* fixed */
     padding: 10px;
-    box-shadow: 10px;
+    box-shadow: 10px 10px 5px gray;
+    /* fixed */
 }
 
 nav {
@@ -56,6 +58,7 @@ main img {
 
 footer {
     margin-top: 10px;
-    border-top: 10px;
+    border-top: 10px solid black;
+    /* fixed */
     text-align: center;
 }

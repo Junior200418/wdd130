@@ -1,0 +1,30 @@
+html {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+header p {
+    background-color: rgb(60, 60, 67);
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(60, 60, 67);
+    padding: 10px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+section {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}

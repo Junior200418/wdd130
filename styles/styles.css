@@ -1,5 +1,16 @@
+main {
+    max-width: fit-content;
+}
+
+main img {
+    border: 20px;
+    padding: 10px;
+    box-shadow: 10px;
+}
+
 nav {
     background-color: darkblue;
+    padding: 0;
 }
 
 nav a {
@@ -26,8 +37,8 @@ p {
 
 aside {
     width: 150px;
-    margin: 60px;
-    border: 1px solid #000;
+    margin: 80px;
+    border: 40px solid #000;
     padding: 40px;
     background-color: black;
     color: brown;

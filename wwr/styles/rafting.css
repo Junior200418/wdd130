@@ -1,12 +1,8 @@
 :root {
     --primary-color: #000000;
-    /* body text can stay black */
     --secondary-color: #1f2937;
-    /* dark gray background */
     --accent1-color: #ffffff;
-    /* white text for dark backgrounds */
     --accent2-color: #111827;
-    /* darker gray background */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -20,7 +16,6 @@
 body {
     font-family: var(--body-font);
     color: var(--primary-color);
-    /* black text for main content */
 }
 
 header {
@@ -31,7 +26,6 @@ header {
     grid-template-columns: 200px 1fr 1fr;
     align-items: center;
     color: var(--accent1-color);
-    /* WHITE text for header contrast */
 }
 
 header,
@@ -45,7 +39,6 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
-    /* WHITE text on dark backgrounds */
 }
 
 nav,
@@ -70,7 +63,6 @@ article {
     height: auto;
 }
 
-/* Hero text overlays */
 .hero h1 {
     position: absolute;
     top: 20px;
@@ -79,9 +71,7 @@ article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    /* white overlay */
     color: var(--secondary-color);
-    /* dark text for contrast */
 }
 
 .hero article {
@@ -93,9 +83,7 @@ article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    /* white overlay */
     color: var(--secondary-color);
-    /* dark text for contrast */
 }
 
 .hero article img {
@@ -103,7 +91,6 @@ article {
     width: 125px;
 }
 
-/* Sections with dark backgrounds */
 .section,
 h2 {
     bottom: 20px;
@@ -113,9 +100,7 @@ h2 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent2-color);
-    /* very dark gray bg */
     color: var(--accent1-color);
-    /* white text for contrast */
 }
 
 ul {
@@ -132,7 +117,6 @@ nav {
     font-family: var(--body-font);
 }
 
-/* History section */
 .history {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -140,9 +124,7 @@ nav {
     gap: 1.5rem;
     border: 2px;
     background-color: var(--secondary-color);
-    /* dark bg */
     color: var(--accent1-color);
-    /* white text for contrast */
     opacity: 1;
     text-align: left;
 }
@@ -151,9 +133,7 @@ nav {
     grid-column: 1 / -1;
     text-align: center;
     background-color: var(--accent1-color);
-    /* white header */
     color: var(--secondary-color);
-    /* dark text for contrast */
     opacity: 1;
 }
 
@@ -194,7 +174,6 @@ nav {
     margin-top: 0.5rem;
     font-size: 0.85rem;
     color: var(--primary-color);
-    /* black text on light background */
 }
 
 footer {

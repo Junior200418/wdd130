@@ -1,8 +1,8 @@
 :root {
-    --primary-color: black;
-    --secondary-color: dimgrey;
-    --accent1-color: orange;
-    --accent2-color: khaki;
+    --primary-color: #000000;
+    --secondary-color: #333333;
+    --accent1-color: #1f2933;
+    --accent2-color: #f5f5f5;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -24,7 +24,7 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 header,
